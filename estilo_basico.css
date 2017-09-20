@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, sans-serif;
+}
+header{
+  background-color: green;
+}
+section{
+  background-color: rgb(0,0,255);
+  color: white;
+  margin-top: 0px;
+}
+footer{
+  background-color: #FF0000;
+}
+table, th, td{
+  border: 1px solid white;
+}
+table{
+  margin:auto;
+}
+.sublinhado{
+  text-decoration: underline;#
+}
+.centralizado{
+  text-align: center;
+}
+.negrito{
+  font-weight: bold;
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: green;
+}
+a:hover{
+  color: red;
+}
+a:active{
+  color: yellow;
+}
