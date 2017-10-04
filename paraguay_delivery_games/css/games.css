@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+  font-family: sans-serif;
+}
+#logo{
+  width: 5%;
+}
+#menu{
+  display: inline;
+}
+header{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
