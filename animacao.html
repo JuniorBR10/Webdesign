@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Página com animação</title>
+    <meta name="author" content="Antônio Marcos">
+    <style>
+      @keyframes mudacor {
+        from{background-color: red; width: 100px;}
+        to{background-color: blue;width: 1580px;}
+      }
+      .anima{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        animation-name: mudacor;
+        animation-duration: 14s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Animação</h1>
+    </header>
+    <section>
+      <h2>Objeto</h2>
+      <div class="anima">
+
+      </div>
+    </section>
+  </body>
+</html>

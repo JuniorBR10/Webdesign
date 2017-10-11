@@ -1,17 +1,75 @@
 @charset "UTF-8";
+@font-face {
+  font-family: minha_fonte;
+  src: url(../fonts/ufontscomepisodei.woff);
+}
+@font-face {
+  font-family: fonte_texto;
+  src: url(../fonts/Bellerose.woff);
+}
 *{
   font-family: sans-serif;
 }
 #logo{
-  width: 5%;
+  width: 3%;
+}
+#p_logo{
+
+}
+h1{
+  font-family: minha_fonte;
 }
 #menu{
+  position: relative;
+  right: 1%;
+}
+#menu ul{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#menu li{
+  display: inline;
+  padding: 1%;
+}
+#menu a{
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+  transition: all 0.5s ;
+}
+#menu a:hover{
+  background-color: lightgreen;
+  box-shadow: 0px 0px 3px black;
+}
+.texto_centralizado{
+  text-align: center;
+  display: block;
+}
+.centralizado{
+  margin: 0 auto;
+  display: block;
+}
+.negrito{
+  font-weight: bold;
+}
+.inline{
   display: inline;
 }
-header{
-  text-align: center;
+#texto_quem_somos{
+  font-family: fonte_texto;
+  font-size: 18pt;
 }
-
+header{
+  position: relative;
+  text-align: center;
+  left: 0;
+  top:0;
+  width: 100%;
+}
+section{
+  position: relative;
+}
 footer{
   position: fixed;
   left: 0;
