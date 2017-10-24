@@ -1,0 +1,81 @@
+@charset "UTF-8";
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.negrito{
+  font-weight: bold;
+}
+.texto_centralizado{
+  text-align: center;
+  display: block;
+}
+.centralizado{
+  margin: 0 auto;
+  display: block;
+}
+#menu{
+  list-style: none;
+  position: absolute;
+  float: left;
+}
+#menu li{
+  padding: 10px;
+}
+#menu li:hover a{
+    background-color: #0098DA;
+}
+#menu a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  color: white;
+  background-color: gray;
+}
+table{
+  margin: 0 auto 3% auto;
+}
+td, th{
+  padding: 1%;
+  border: 1px solid black;
+}
+tr:hover{
+  background-color: #0098DA;
+}
+#quadrado{
+  width: 150px;
+  height: 150px;
+  background-color: #0098DA;
+  animation-name: quadrado;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes quadrado {
+0% {transform: rotate(0deg);}
+25% {transform: rotate(90deg);}
+50% {transform: rotate(180deg);}
+75% {transform: rotate(270deg);}
+100% {transform: rotate(360deg);}
+}
+#formulario{
+    width: 20%;
+    margin: 0 auto;
+}
+.input{
+  padding: 0.7%;
+  margin: 0.3%;
+  width: 100%;
+  padding: 3%;
+}
+textArea {
+    resize: none;
+    height: 200px;
+}

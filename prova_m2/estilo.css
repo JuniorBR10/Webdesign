@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+  font-family: sans-serif;
+}
+.negrito{
+  font-weight: bold;
+}
+.texto_centralizado{
+  text-align: center;
+  display: block;
+}
+.centralizado{
+  margin: 0 auto;
+  display: block;
+}
+.titulo{
+  text-align: center;
+  color: #0000FF;
+}
+.lista_menu{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.menu{
+    display: inline-block;
+    margin: 1%;
+}
+#logo{
+  width: 30%;
+  padding: 1%;
+}
+footer{
+  padding: 2%;
+}
+.input{
+  padding: 0.7%;
+  margin: 0.3%;
+}
